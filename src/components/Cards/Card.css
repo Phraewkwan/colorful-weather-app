@@ -1,0 +1,38 @@
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.dayAndTemp {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 100px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 5px;
+}
+
+.dayAndTemp > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.dayAndTemp > h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dayAndTemp > p {
+    font-size: 14px;
+    font-weight: 600;
+}
+

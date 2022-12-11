@@ -1,0 +1,43 @@
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px;
+
+  color: #2f8f9d;
+}
+
+svg {
+  color: #2f8f9d;
+}
+
+input::placeholder {
+  color: #2f8f9d;
+}
+
+input:focus {
+  outline: none;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-right: 15px;
+  gap: 10px;
+}
+
+.userProfile > img {
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

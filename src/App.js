@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Air from './components/Air/Air';
+import Daily from './components/DailyWeather/Daily';
+import SmallWeatherCard from './components/SmallWeatherCard/SmallWeatherCard';
+import SunriseAndSunset from './components/SunriseAndSunset/SunriseAndSunset';
+import User from './components/Users/User';
+import WeatherCard from './components/WeatherCard/WeatherCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="card">
+        <div className="leftside">
+          <Daily />
+          <div className="left__wrapper">
+            <div className="left">
+              <Air />
+            </div>
+            <div className="right">
+              <SunriseAndSunset />
+            </div>
+          </div>
+        </div>
+        <div className="rightside">
+          <User />
+          <WeatherCard />
+          <SmallWeatherCard bgcolor='#fd504da7' />
+          <SmallWeatherCard bgcolor='#d68f56' />
+        </div>
+      </div>
     </div>
   );
 }

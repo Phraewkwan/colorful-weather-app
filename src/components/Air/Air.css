@@ -1,0 +1,116 @@
+.air {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 25rem;
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+}
+
+.airContent {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 5px 10px;
+}
+
+.airContent > h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.air__city {
+  display: flex;
+  gap: 5px;
+}
+
+.air__city > p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6666;
+}
+
+.airGrade {
+  margin: 5px 10px;
+}
+
+.grade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grade > h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3060ff;
+  background-color: #3060ff33;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gradeContents {
+  display: flex;
+  gap: 5px;
+}
+
+.gradeContents > svg {
+  color: green;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.gradeContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.gradeContent > h4 {
+  font-size: 14px;
+  color: green;
+  font-weight: 600;
+}
+
+.gradeContent > p {
+  font-size: 12px;
+  color: darkgray;
+  font-weight: 400;
+}
+
+.componentOfAir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 5px 10px;
+}
+
+.wrapper__Compo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(11, 223, 11, 0.242);
+}
+
+.wrapper__Compo > h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: green;
+}
+
+.wrapper__Compo > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: green;
+}

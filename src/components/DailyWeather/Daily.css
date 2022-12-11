@@ -1,0 +1,42 @@
+.daily {
+  display: flex;
+  flex-direction: column;
+}
+
+.dailyTimeHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.dailyTimeHeader > h1 {
+  font-weight: 700;
+  color: #71c9ce;
+}
+
+.dailyTimeHeader > h5 {
+  color: rgb(66, 66, 66);
+  font-weight: 600;
+}
+
+.HeaderText {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+}
+
+.HeaderText > svg {
+  color: #71c9ce;
+}
+
+.HeaderText > h2 {
+  color: #71c9ce;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card_Container {
+  margin-top: 1rem;
+}
+

@@ -1,0 +1,134 @@
+.SmallWeatherCard {
+  margin: 12px 10px;
+  background-color: #fd504da7;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 18.75rem;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weatherLeft {
+  margin: 0 0.8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.windDeatails {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.windDeatails > span {
+  color: white;
+  margin: 0 10px;
+}
+
+.windDe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.windDe > svg {
+  color: white;
+  margin-right: 5px;
+}
+
+.windDe > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.windNum {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.windNum > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.huDeatails {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.huDeatails > span {
+  color: white;
+  margin: 0 10px;
+}
+
+.huDe {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.huDe > svg {
+  color: white;
+  margin-right: 5px;
+}
+
+.huDe > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.huNum {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.huNum > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cityRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  margin: 0 0.8rem;
+}
+
+.cityRight > h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+}
+
+.citySmallCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.citySmallCard > svg {
+    color: white;
+}
+
+.citySmallCard > h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+

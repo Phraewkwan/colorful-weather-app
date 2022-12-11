@@ -1,0 +1,31 @@
+.SunriseAndSunset {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 223, 163, 0.351);
+  overflow: hidden;
+  width: 25rem;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+}
+
+.city_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0.8rem 0;
+}
+
+.time_city {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   margin: 0.8rem 0;
+}
+
+

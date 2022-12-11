@@ -1,0 +1,93 @@
+.City {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+}
+
+.city__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city__content > svg {
+    color: #d68f56;
+    
+    cursor: pointer;
+}
+
+.city__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sun {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 5px;
+  padding: 0 1rem;
+}
+
+.sunrise__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunrise__details > svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #d68f56;
+  margin-right: 5px;
+}
+
+.sunrise__time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sunrise__time > span {
+  font-size: 12px;
+  color: darkgray;
+}
+
+.sunrise__time > h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3060ff;
+}
+
+.sunset__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sunset__details > svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #d68f56;
+  margin-right: 5px;
+}
+
+.sunset__time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sunset__time > span {
+  font-size: 12px;
+  color: darkgray;
+}
+
+.sunset__time > h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #3060ff;
+}

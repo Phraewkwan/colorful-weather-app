@@ -1,0 +1,135 @@
+.weather-card {
+  margin: 10px;
+  background-color: #71c9ce;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 18.75rem;
+  height: 400px;
+}
+
+.city {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 5px;
+}
+
+.city > svg {
+  color: white;
+}
+
+.city > h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.weatherDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherDetails > img {
+  width: 7rem;
+}
+
+.weatherDetails > h5 {
+  font-weight: 400;
+  color: white;
+  margin-top: 1rem;
+}
+
+.weatherDetails > h1 {
+  font-size: 48px;
+  color: white;
+}
+
+.weatherDetails > h4 {
+  font-weight: 500;
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 22px;
+  margin-bottom: 0.5rem;
+}
+
+.weather__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather__container > span {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  margin: 0 1rem;
+}
+
+.wind_Left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wind_detailsLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 7.5px;
+}
+
+.wind_detailsLeft > svg {
+  color: white;
+}
+
+.wind_detailsLeft > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hu_detailsLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hu_detailsLeft > svg {
+  color: white;
+}
+
+.hu_detailsLeft > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.num_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.winAndHu_detailsRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.win_num > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hu_num > h5 {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}

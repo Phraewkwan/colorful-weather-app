@@ -1,0 +1,60 @@
+.TimeCity {
+  display: flex;
+  flex-direction: column;
+}
+
+.cityAndTime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cityName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cityName > svg {
+  color: #d68f56;
+}
+
+.cityName > h5 {
+  color: #3060ff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.city__sunrise {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.city__sunrise > svg {
+    color: #d68f56;
+}
+
+.city__sunrise > h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: darkgrey;
+}
+
+.city__sunset {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.city__sunset > svg {
+    color: #d68f56;
+}
+
+.city__sunset > h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: darkgrey;
+}
+
+
